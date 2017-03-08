@@ -1,0 +1,15 @@
+ 1) This is the mic
+ 00:1b.0 Audio device: Intel Corporation 7 Series/C210 Series Chipset Family High Definition Audio Controller (rev 04)
+
+2) If I feel the need of doxygen later:
+http://docs.opencv.org/master/d4/db1/tutorial_documentation.html
+
+3) The voice module of turtlebot itself using PC-robot network
+http://wiki.ros.org/turtlebot/Tutorials/indigo/Create%20your%20First%20Interaction
+
+4) If we need detailed of networking
+
+http://wiki.ros.org/turtlebot/Tutorials/indigo/Network%20Configuration
+
+
+ 

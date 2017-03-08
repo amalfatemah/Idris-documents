@@ -1,0 +1,30 @@
+TO CHECK DEVICES CONNECTED:
+ $ lsusb
+ $ lsusb | grep Xbox
+
+TO LAUNCH KINECT:
+ $ roslaunch openn_launch openni.launch
+ $ roslaunch turtlebot_bringup minimal.launch
+
+TO LAUNCH CAMERA:
+ $ rosrun image_view image_view image:=/camera/rgb/image_color
+ $ rosrun image_view image_view image:=/camera/depth/image
+
+TO LAUNCH RVIZ:
+ $ roslaunch turtlebot_rviz_launchers view_robot.launch
+
+TO LAUNCH TELE-OP:
+ $ roslaunch turtlebot_teleop keyboard_teleop.launch
+
+
+
+
+
+
+RANDOM USEFUL COMMANDS:
+
+ $ rostopic echo /laptop_charge 
+//for the battery status of the laptop
+
+
+

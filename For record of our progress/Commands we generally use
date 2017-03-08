@@ -1,0 +1,44 @@
+TO CHECK DEVICES CONNECTED:
+ $ lsusb
+ $ lsusb | grep Xbox
+
+TO OPEN THE PORTS:
+ $ ls usb ttyUSB*
+ $ sudo chmod 777 /dev/ttyUSB0
+
+TO LAUNCH KINECT:
+ $ roslaunch openn_launch openni.launch
+Bootsrapping Kinect:
+ $ roslaunch turtlebot_bringup minimal.launch
+
+TO LAUNCH CAMERA:
+ $ rosrun image_view image_view image:=/camera/rgb/image_color
+ $ rosrun image_view image_view image:=/camera/depth/image
+
+TO LAUNCH RVIZ:
+ $ roslaunch turtlebot_rviz_launchers view_robot.launch
+
+TO LAUNCH TELE-OP:
+ $ roslaunch turtlebot_teleop keyboard_teleop.launch
+
+TO Start the SSH and Network:
+ $  sudo service ssh status
+ $ ifconfig
+ $ sudo ssh minha@ipaddressrobot
+
+To change the parameters of the follower:
+ $ rosrun rqt_reconfigure rqt_reconfigure
+
+
+
+
+
+
+
+RANDOM USEFUL COMMANDS:
+
+ $ rostopic echo /laptop_charge 
+//for the battery status of the laptop
+
+
+
